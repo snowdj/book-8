@@ -25,7 +25,7 @@
 <meta name="author" content="Ilya Ilyankou" />
 
 
-<meta name="date" content="2020-12-12" />
+<meta name="date" content="2020-12-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -237,6 +237,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="" data-path="table-design.html"><a href="table-design.html"><i class="fa fa-check"></i>Table Design Principles</a></li>
 <li class="chapter" data-level="" data-path="table-datawrapper.html"><a href="table-datawrapper.html"><i class="fa fa-check"></i>Datawrapper Table with Sparklines</a></li>
+<li class="chapter" data-level="" data-path="other-table-tools.html"><a href="other-table-tools.html"><i class="fa fa-check"></i>Other Table-Making Tools</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="embed.html"><a href="embed.html"><i class="fa fa-check"></i><b>10</b> Embed On the Web</a>
 <ul>
@@ -272,14 +273,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="14" data-path="transform.html"><a href="transform.html"><i class="fa fa-check"></i><b>14</b> Transform Your Map Data</a>
 <ul>
-<li class="chapter" data-level="" data-path="bulk-geocode.html"><a href="bulk-geocode.html"><i class="fa fa-check"></i>Bulk Geocode with US Census</a></li>
-<li class="chapter" data-level="" data-path="pivot-point-to-polygon.html"><a href="pivot-point-to-polygon.html"><i class="fa fa-check"></i>Pivot Points into Polygon Data</a></li>
 <li class="chapter" data-level="" data-path="geojson.html"><a href="geojson.html"><i class="fa fa-check"></i>Geospatial Data and GeoJSON</a></li>
 <li class="chapter" data-level="" data-path="find-geojson.html"><a href="find-geojson.html"><i class="fa fa-check"></i>Find GeoJSON Boundary Files</a></li>
 <li class="chapter" data-level="" data-path="geojsonio.html"><a href="geojsonio.html"><i class="fa fa-check"></i>Draw and Edit with GeoJson.io</a></li>
 <li class="chapter" data-level="" data-path="mapshaper.html"><a href="mapshaper.html"><i class="fa fa-check"></i>Edit and Join with Mapshaper</a></li>
-<li class="chapter" data-level="" data-path="mapwarper.html"><a href="mapwarper.html"><i class="fa fa-check"></i>Georeference with MapWarper</a></li>
 <li class="chapter" data-level="" data-path="convert-kmz.html"><a href="convert-kmz.html"><i class="fa fa-check"></i>Convert Compressed KMZ to KML</a></li>
+<li class="chapter" data-level="" data-path="mapwarper.html"><a href="mapwarper.html"><i class="fa fa-check"></i>Georeference with MapWarper</a></li>
+<li class="chapter" data-level="" data-path="bulk-geocode.html"><a href="bulk-geocode.html"><i class="fa fa-check"></i>Bulk Geocode with US Census</a></li>
+<li class="chapter" data-level="" data-path="pivot-point-to-polygon.html"><a href="pivot-point-to-polygon.html"><i class="fa fa-check"></i>Pivot Points into Polygon Data</a></li>
 </ul></li>
 <li class="chapter" data-level="15" data-path="detect.html"><a href="detect.html"><i class="fa fa-check"></i><b>15</b> Detect Lies and Reduce Bias</a>
 <ul>
@@ -311,6 +312,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="D" data-path="bookdown.html"><a href="bookdown.html"><i class="fa fa-check"></i><b>D</b> Publishing with Bookdown</a>
 <ul>
+<li class="chapter" data-level="" data-path="collaborative-writing-on-github.html"><a href="collaborative-writing-on-github.html"><i class="fa fa-check"></i>Collaborative Writing on GitHub</a></li>
 <li><a href="style-guide.html#style-guide">Style Guide for <em>Hands-On Data Visualization</em></a></li>
 <li class="chapter" data-level="" data-path="images.html"><a href="images.html"><i class="fa fa-check"></i>Images</a></li>
 <li class="chapter" data-level="" data-path="tables.html"><a href="tables.html"><i class="fa fa-check"></i>Tables</a></li>
@@ -352,15 +354,9 @@ other programming language, we designed templates that you can copy
 to your own GitHub account, substitute data files, and publish them to the web
 without writing a single line of code. But for those of you who are code-curious,
 we will show how the JavaScript code in these templates can be customized.</p>
-<p>Now, why would anyone prefer JavaScript to easy-to-use Datawrapper or Tableau, you may wonder?
-Well, a few reasons. Although JavaScript code may seem overwhelming and intimidating at first,
-it allows for greater customization in terms of colors, padding, interactivity, and data handling
-than most third-party tools can offer. In addition, you can never be sure that third-party
-apps will remain free, or at least have a free tier, forever, whereas open-source tools
-are here to stay free of charge.</p>
+<p>Now, why would anyone prefer JavaScript to easy-to-use Datawrapper or Tableau, you may wonder? Well, a few reasons. Although JavaScript code may seem overwhelming and intimidating at first, it allows for greater customization in terms of colors, padding, interactivity, and data handling than most third-party tools can offer. In addition, you can never be sure that third-party apps will remain free, or at least have a free tier, forever, whereas open-source tools are here to stay, free of charge, as long as someone maintains the code.</p>
 <p>Note: Although both libraries are open-source, Highcharts comes <a href="https://www.highcharts.com/products/highcharts/#non-commercial">with a stricter license</a> which allows it to be used for free for non-commercial projects only, such as personal, school, or non-profit organization website. Keeping that in mind, we primarily focus on Chart.js, which is distributed under MIT license that lets you use the library for commercial projects as well.</p>
-<p>Table <a href="chartcode.html#tab:chart-templates">12.1</a> lists all types of charts that we will look at in this chapter.
-Both libraries include many more default chart types that you can explore
+<p>Table <a href="chartcode.html#tab:chart-templates">12.1</a> lists all types of charts that we will look at in this chapter. Both libraries include many more default chart types that you can explore
 in <a href="https://www.chartjs.org/samples/latest/">Chart.js Samples</a> and <a href="https://www.highcharts.com/demo">Highcharts Demos</a>. However, we strongly advise against using some chart types, such as three-dimensional ones, for reasons we discussed in the <a href="chart-design">Chart Design Principles section of Chapter 7</a>.</p>
 <table>
 <caption><span id="tab:chart-templates">Table 12.1: </span> Chart Code Templates, Best Uses, and Tutorials</caption>
@@ -376,27 +372,27 @@ in <a href="https://www.chartjs.org/samples/latest/">Chart.js Samples</a> and <a
 </thead>
 <tbody>
 <tr class="odd">
-<td>Bar or Column Chart<br> <img src="images/12-chartcode/chartjs-column.png" /></td>
+<td>Bar or Column Chart<br> <img src="images/12-chartcode/tablechartjs-column.png" /></td>
 <td>Best to compare categories side-by-side. If labels are long, use horizontal bars instead of vertical columns. <br>Power tool: <a href="chartjs-bar-column.html">Bar or Column Chart with CSV data in Chart.js code template and tutorial</a></td>
 </tr>
 <tr class="even">
-<td>Error Bars in a Bar/Column Chart<br> <img src="images/12-chartcode/chartjs-error-bars.png" /></td>
+<td>Error Bars in a Bar/Column Chart<br> <img src="images/12-chartcode/tablechartjs-error-bars.png" /></td>
 <td>Best to show margin of error bars when comparing categories side-by-side. If labels are long, use horizontal bars instead of vertical columns. <br>Power tool: <a href="chartjs-error-bars.html">Error Bars in Bar/Column Chart with CSV data in Chart.js code template and tutorial</a></td>
 </tr>
 <tr class="odd">
-<td>Line Chart<br> <img src="images/12-chartcode/chartjs-line.png" /></td>
-<td>Best to show continuous data, such as change over time.<br>Power tool: <a href="chartjs-line.html">Line Chart with CSV data in Chart.js code template and tutorial</a></td>
+<td>Line Chart<br> <img src="images/12-chartcode/tablechartjs-line.png" /></td>
+<td>Best to show continuous data, such as change over time.<br>Power tool: <a href="chartjs-line.html">Line Chart with CSV data in Chart.js code template and tutorial</a>. See tutorial note to modify line chart into stacked area chart.</td>
 </tr>
 <tr class="even">
-<td>Annotated Line Chart<br> <img src="images/12-chartcode/highcharts-annotated-line.png" /></td>
+<td>Annotated Line Chart<br> <img src="images/12-chartcode/tablechartjs-highcharts-annotated-line.png" /></td>
 <td>Best to add contextual notes inside chart of continuous data, such as change over time.<br>Power tool: <a href="highcharts-annotated-line.html">Annotated Line Chart with CSV data in Highcharts code template and tutorial</a></td>
 </tr>
 <tr class="odd">
-<td>Scatter Chart<br> <img src="images/12-chartcode/chartjs-scatter.png" /></td>
+<td>Scatter Chart<br> <img src="images/12-chartcode/tablechartjs-scatter.png" /></td>
 <td>Best to show the relationship between two datasets as XY coordinates to reveal possible correlations.<br>Power tool: <a href="chartjs-scatter.html">Scatter Chart with CSV data in Chart.js code template and tutorial</a></td>
 </tr>
 <tr class="even">
-<td>Bubble Chart<br> <img src="images/12-chartcode/chartjs-bubble.png" /></td>
+<td>Bubble Chart<br> <img src="images/12-chartcode/tablechartjs-bubble.png" /></td>
 <td>Best to show the relationship between three or four sets of data, with XY coordinates, bubble size, and color. <br>Power tool: <a href="chartjs-bubble.html">Bubble Chart with CSV data in Chart.js code template and tutorial</a></td>
 </tr>
 </tbody>

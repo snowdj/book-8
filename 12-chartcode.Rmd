@@ -12,29 +12,23 @@ to your own GitHub account, substitute data files, and publish them to the web
 without writing a single line of code. But for those of you who are code-curious,
 we will show how the JavaScript code in these templates can be customized.
 
-Now, why would anyone prefer JavaScript to easy-to-use Datawrapper or Tableau, you may wonder?
-Well, a few reasons. Although JavaScript code may seem overwhelming and intimidating at first,
-it allows for greater customization in terms of colors, padding, interactivity, and data handling
-than most third-party tools can offer. In addition, you can never be sure that third-party
-apps will remain free, or at least have a free tier, forever, whereas open-source tools
-are here to stay free of charge.
+Now, why would anyone prefer JavaScript to easy-to-use Datawrapper or Tableau, you may wonder? Well, a few reasons. Although JavaScript code may seem overwhelming and intimidating at first, it allows for greater customization in terms of colors, padding, interactivity, and data handling than most third-party tools can offer. In addition, you can never be sure that third-party apps will remain free, or at least have a free tier, forever, whereas open-source tools are here to stay, free of charge, as long as someone maintains the code.
 
 Note: Although both libraries are open-source, Highcharts comes [with a stricter license](https://www.highcharts.com/products/highcharts/#non-commercial) which allows it to be used for free for non-commercial projects only, such as personal, school, or non-profit organization website. Keeping that in mind, we primarily focus on Chart.js, which is distributed under MIT license that lets you use the library for commercial projects as well.
 
-Table \@ref(tab:chart-templates) lists all types of charts that we will look at in this chapter.
-Both libraries include many more default chart types that you can explore
+Table \@ref(tab:chart-templates) lists all types of charts that we will look at in this chapter. Both libraries include many more default chart types that you can explore
 in [Chart.js Samples](https://www.chartjs.org/samples/latest/) and [Highcharts Demos](https://www.highcharts.com/demo). However, we strongly advise against using some chart types, such as three-dimensional ones, for reasons we discussed in the [Chart Design Principles section of Chapter 7](chart-design).
 
 Table: (\#tab:chart-templates) Chart Code Templates, Best Uses, and Tutorials
 
 | Chart | Best use and tutorials in this book |
 | --- | --- |
-| Bar or Column Chart<br> ![](images/12-chartcode/chartjs-column.png) | Best to compare categories side-by-side. If labels are long, use horizontal bars instead of vertical columns. <br>Power tool: [Bar or Column Chart with CSV data in Chart.js code template and tutorial](chartjs-bar-column.html)  |
-| Error Bars in a Bar/Column Chart<br> ![](images/12-chartcode/chartjs-error-bars.png) | Best to show margin of error bars when comparing categories side-by-side. If labels are long, use horizontal bars instead of vertical columns. <br>Power tool: [Error Bars in Bar/Column Chart with CSV data in Chart.js code template and tutorial](chartjs-error-bars.html)  |
-| Line Chart<br> ![](images/12-chartcode/chartjs-line.png) | Best to show continuous data, such as change over time.<br>Power tool: [Line Chart with CSV data in Chart.js code template and tutorial](chartjs-line.html) |
-| Annotated Line Chart<br> ![](images/12-chartcode/highcharts-annotated-line.png) | Best to add contextual notes inside chart of continuous data, such as change over time.<br>Power tool: [Annotated Line Chart with CSV data in Highcharts code template and tutorial](highcharts-annotated-line.html) |
-| Scatter Chart<br> ![](images/12-chartcode/chartjs-scatter.png) | Best to show the relationship between two datasets as XY coordinates to reveal possible correlations.<br>Power tool: [Scatter Chart with CSV data in Chart.js code template and tutorial](chartjs-scatter.html) |
-| Bubble Chart<br> ![](images/12-chartcode/chartjs-bubble.png) | Best to show the relationship between three or four sets of data, with XY coordinates, bubble size, and color. <br>Power tool: [Bubble Chart with CSV data in Chart.js code template and tutorial](chartjs-bubble.html) |
+| Bar or Column Chart<br> ![](images/12-chartcode/tablechartjs-column.png) | Best to compare categories side-by-side. If labels are long, use horizontal bars instead of vertical columns. <br>Power tool: [Bar or Column Chart with CSV data in Chart.js code template and tutorial](chartjs-bar-column.html)  |
+| Error Bars in a Bar/Column Chart<br> ![](images/12-chartcode/tablechartjs-error-bars.png) | Best to show margin of error bars when comparing categories side-by-side. If labels are long, use horizontal bars instead of vertical columns. <br>Power tool: [Error Bars in Bar/Column Chart with CSV data in Chart.js code template and tutorial](chartjs-error-bars.html)  |
+| Line Chart<br> ![](images/12-chartcode/tablechartjs-line.png) | Best to show continuous data, such as change over time.<br>Power tool: [Line Chart with CSV data in Chart.js code template and tutorial](chartjs-line.html). See tutorial note to modify line chart into stacked area chart. |
+| Annotated Line Chart<br> ![](images/12-chartcode/tablechartjs-highcharts-annotated-line.png) | Best to add contextual notes inside chart of continuous data, such as change over time.<br>Power tool: [Annotated Line Chart with CSV data in Highcharts code template and tutorial](highcharts-annotated-line.html) |
+| Scatter Chart<br> ![](images/12-chartcode/tablechartjs-scatter.png) | Best to show the relationship between two datasets as XY coordinates to reveal possible correlations.<br>Power tool: [Scatter Chart with CSV data in Chart.js code template and tutorial](chartjs-scatter.html) |
+| Bubble Chart<br> ![](images/12-chartcode/tablechartjs-bubble.png) | Best to show the relationship between three or four sets of data, with XY coordinates, bubble size, and color. <br>Power tool: [Bubble Chart with CSV data in Chart.js code template and tutorial](chartjs-bubble.html) |
 
 
 ## Bar or Column Chart with Chart.js {- #chartjs-bar-column}
@@ -245,6 +239,8 @@ var SHOW_GRID = true;
  // `true` to show the legend, `false` to hide
 var SHOW_LEGEND = true;
 ```
+
+Note: To change a Chart.js line chart into a stacked area chart, make sure each `dataset` comes with a `fill: true` property, and that yAxis `stacked` property is set to `true`.
 
 Remember to look at the official [Chart.js documentation](https://www.chartjs.org/docs/latest/) if you want to add more features. If something isn't working as desired, visit [StackOverflow](https://stackoverflow.com/search?q=chartjs) to see if anyone had already solved your problem.
 

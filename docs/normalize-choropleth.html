@@ -25,7 +25,7 @@
 <meta name="author" content="Ilya Ilyankou" />
 
 
-<meta name="date" content="2020-12-12" />
+<meta name="date" content="2020-12-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -237,6 +237,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="" data-path="table-design.html"><a href="table-design.html"><i class="fa fa-check"></i>Table Design Principles</a></li>
 <li class="chapter" data-level="" data-path="table-datawrapper.html"><a href="table-datawrapper.html"><i class="fa fa-check"></i>Datawrapper Table with Sparklines</a></li>
+<li class="chapter" data-level="" data-path="other-table-tools.html"><a href="other-table-tools.html"><i class="fa fa-check"></i>Other Table-Making Tools</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="embed.html"><a href="embed.html"><i class="fa fa-check"></i><b>10</b> Embed On the Web</a>
 <ul>
@@ -272,14 +273,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="14" data-path="transform.html"><a href="transform.html"><i class="fa fa-check"></i><b>14</b> Transform Your Map Data</a>
 <ul>
-<li class="chapter" data-level="" data-path="bulk-geocode.html"><a href="bulk-geocode.html"><i class="fa fa-check"></i>Bulk Geocode with US Census</a></li>
-<li class="chapter" data-level="" data-path="pivot-point-to-polygon.html"><a href="pivot-point-to-polygon.html"><i class="fa fa-check"></i>Pivot Points into Polygon Data</a></li>
 <li class="chapter" data-level="" data-path="geojson.html"><a href="geojson.html"><i class="fa fa-check"></i>Geospatial Data and GeoJSON</a></li>
 <li class="chapter" data-level="" data-path="find-geojson.html"><a href="find-geojson.html"><i class="fa fa-check"></i>Find GeoJSON Boundary Files</a></li>
 <li class="chapter" data-level="" data-path="geojsonio.html"><a href="geojsonio.html"><i class="fa fa-check"></i>Draw and Edit with GeoJson.io</a></li>
 <li class="chapter" data-level="" data-path="mapshaper.html"><a href="mapshaper.html"><i class="fa fa-check"></i>Edit and Join with Mapshaper</a></li>
-<li class="chapter" data-level="" data-path="mapwarper.html"><a href="mapwarper.html"><i class="fa fa-check"></i>Georeference with MapWarper</a></li>
 <li class="chapter" data-level="" data-path="convert-kmz.html"><a href="convert-kmz.html"><i class="fa fa-check"></i>Convert Compressed KMZ to KML</a></li>
+<li class="chapter" data-level="" data-path="mapwarper.html"><a href="mapwarper.html"><i class="fa fa-check"></i>Georeference with MapWarper</a></li>
+<li class="chapter" data-level="" data-path="bulk-geocode.html"><a href="bulk-geocode.html"><i class="fa fa-check"></i>Bulk Geocode with US Census</a></li>
+<li class="chapter" data-level="" data-path="pivot-point-to-polygon.html"><a href="pivot-point-to-polygon.html"><i class="fa fa-check"></i>Pivot Points into Polygon Data</a></li>
 </ul></li>
 <li class="chapter" data-level="15" data-path="detect.html"><a href="detect.html"><i class="fa fa-check"></i><b>15</b> Detect Lies and Reduce Bias</a>
 <ul>
@@ -311,6 +312,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="D" data-path="bookdown.html"><a href="bookdown.html"><i class="fa fa-check"></i><b>D</b> Publishing with Bookdown</a>
 <ul>
+<li class="chapter" data-level="" data-path="collaborative-writing-on-github.html"><a href="collaborative-writing-on-github.html"><i class="fa fa-check"></i>Collaborative Writing on GitHub</a></li>
 <li><a href="style-guide.html#style-guide">Style Guide for <em>Hands-On Data Visualization</em></a></li>
 <li class="chapter" data-level="" data-path="images.html"><a href="images.html"><i class="fa fa-check"></i>Images</a></li>
 <li class="chapter" data-level="" data-path="tables.html"><a href="tables.html"><i class="fa fa-check"></i>Tables</a></li>
@@ -343,7 +345,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="normalize-choropleth" class="section level2 unnumbered" number="">
 <h2>Normalize Choropleth Map Data</h2>
 <p>We introduced the concept of <a href="normalize.html">normalizing data in Chapter 6: Make Meaningful Comparisons</a>. Normalization means adjusting data that was collected using different scales into a common scale, in order to make more appropriate comparisons. For example, it makes little sense to compare the total number of Covid cases between nations with very different populations, such as 9.61 million cases in the United States (estimated population 328.2 million) and 0.49 million cases in Belgium (estimated population 11.5 million) as of November 6, 2020. A better strategy is to normalize the data by comparing cases per capita (such as 2,928 cases per 100,000 in the United States versus 4,260 per 100,000 in Belgium) to adjust for prior differences in population.</p>
-<p>In the same way, choropleth maps work best when they display relative values (such as percentages or per capita rates) rather than raw counts. If you ignore normalization when creating a choropleth map and display raw numbers, you’ll essentially recreate a population map, which doesn’t tell us anything new. For example, compare two maps shown in Figure <a href="normalize-choropleth.html#fig:normalize-map-data">8.14</a>. They both are about Covid-19 cases in the continental US as of June 26, 2020. Figure <a href="normalize-choropleth.html#fig:normalize-map-data">8.14</a>a shows total number of recorded cases per state, and Figure <a href="normalize-choropleth.html#fig:normalize-map-data">8.14</a>b shows Covid-19 cases adjusted by the state’s population. Darker colors represent higher values. Do you notice any differences in spatial patterns?</p>
+<p>If you forget to normalize data for a choropleth map, and display raw counts rather than relative values (such as percentages or rates per capita), you’ll often end up recreating a meaningless map of population centers, rather than the phenomenon you’re trying to measure. you often end up showing population centers, instead of the phenomenon that you’re trying to measure. For example, compare two maps shown in Figure <a href="normalize-choropleth.html#fig:normalize-map-data">8.14</a>. They both are about Covid-19 cases in the continental US as of June 26, 2020. Figure <a href="normalize-choropleth.html#fig:normalize-map-data">8.14</a>a shows total number of recorded cases per state, and Figure <a href="normalize-choropleth.html#fig:normalize-map-data">8.14</a>b shows Covid-19 cases adjusted by the state’s population. Darker colors represent higher values. Do you notice any differences in spatial patterns?</p>
 
 <div class="figure"><span id="fig:normalize-map-data"></span>
 <img src="images/08-map/normalize-map-data-annotated.png" alt="Choropleth maps work best with normalized values."  />
@@ -352,11 +354,9 @@ Figure 8.14: Choropleth maps work best with normalized values.
 </p>
 </div>
 <p>Both maps show Covid-19 data collected by the New York Times and published <a href="https://github.com/nytimes/covid-19-data">on GitHub</a>. In the map in Figure <a href="normalize-choropleth.html#fig:normalize-map-data">8.14</a>b, we normalized values by dividing the total number of cases by the population in each state, according to the 2018 US Census American Community Survey, the most recent data available on the day of writing. We did not add legends and other important cartographic elements so that you can better focus on interpreting spatial patterns. In both cases, we used Jenks natural breaks for classification.</p>
-<p>What are the worst-hit states according to the map showing total Covid-19 counts (shown in Figure <a href="normalize-choropleth.html#fig:normalize-map-data">8.14</a>a)? If you are familiar with the US geography, you can quickly tell that these are New York, New Jersey, Massachusetts, Florida, Illinois, Texas, and California. But five of these happen to be some of the most populous states in the US,
-so it makes sense that they will also have higher Covid-19 cases.</p>
+<p>What are the worst-hit states according to the map showing total Covid-19 counts (shown in Figure <a href="normalize-choropleth.html#fig:normalize-map-data">8.14</a>a)? If you are familiar with the US geography, you can quickly tell that these are New York, New Jersey, Massachusetts, Florida, Illinois, Texas, and California. But five of these happen to be some of the most populous states in the US, so it makes sense that they will also have higher Covid-19 cases.</p>
 <p>Now, how about the map in Figure <a href="normalize-choropleth.html#fig:normalize-map-data">8.14</a>b? You can see that New York and its neighbors, including New Jersey and Massachusetts, have by far the highest rates per capita (per person), which we saw in the first map. But you can also see that in fact California, Texas, and Florida were impacted to a lesser extent than the map on the left had suggested. So the map with per-capita values is a much better illustration to the story about New York being the <em>first</em> epicenter of the Covid-19 crisis in the United States.</p>
-<p>TODO: Include a very simple normalization calculation to demonstrate raw counts versus normalized data (Cases / Population = Cases Per Capita) for two states, such as Texas and New York. Decide whether to show data at a specific moment (May 1 2020 near peak for NYC) or most up-to-date figure at this writing (which will show higher case rates elsewhere). Either way, clearly label the date in the caption.</p>
-<p>At this point, you should have a better idea of key principles in map design, and what makes them work (or not) when communicating data images to our eyes. In the next section, we’ll begin our first hands-on tutorial with creating a point map. Later in the chapter we’ll return to exercises in creating choropleth maps.</p>
+<p>At this point, you should have a better idea of key principles and best practices in map design. Now that we’ve covered key concepts for interactive maps in general, and choropleth maps in particular, we will pivot to a series of hands-on tutorials with our recommended tools. In our first tutorial, we will create a <a href="mymaps.html">point map with custom icons in Google MyMaps</a> to show information about specific locations with pop-up windows. In our second tutorial, we will build a <a href="symbolmap-datawrapper.html">symbol point map in Datawrapper</a> that uses colored circles of varying sizes to represent population change for specific cities. Our final tutorials in this chapter will return to the topic of designing <a href="choropleth-datawrapper.html">choropleth maps in Datawrapper</a> and also <a href="map-tableau.html">in Tableau Public</a> in order to compare these two tools.</p>
 </div>
             </section>
 

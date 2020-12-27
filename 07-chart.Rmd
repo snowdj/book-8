@@ -11,30 +11,32 @@ Table: (\#tab:chart-types) Basic Chart Types, Best Uses, and Tutorials
 
 | Chart | Best use and tutorials in this book |
 | --- | --- |
-| Grouped bar or column chart<br> ![](images/07-chart/chart-grouped-column.png) | Best to compare categories side-by-side. If labels are long, use horizontal bars instead of vertical columns. <br>Easy tools: [Bar and Column Charts in Google Sheets tutorial](bar-column-google.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
-| Split bar or column chart<br> ![](images/07-chart/chart-split-column.png) | Best to compare categories in separate clusters.  If labels are long, use horizontal bars instead of vertical columns.<br>Easy tools: [Bar and Column Charts in Google Sheets tutorial](bar-column-google.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
-| Stacked bar or column chart<br> ![](images/07-chart/chart-stacked-column.png) | Best to compare sub-categories, or parts of a whole.  If labels are long, use horizontal bars instead of vertical columns.<br>Easy tools: [Bar and Column Charts in Google Sheets tutorial](bar-column-google.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
-| Error bars in bar or column chart<br> ![](images/07-chart/chart-error-column.png) | Best to show margin of error bars when comparing categories side-by-side. If labels are long, use horizontal bars instead of vertical columns.<br>Easy tool: TODO DECIDE <br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html)  |
-| Histogram<br> ![](images/07-chart/chart-histogram.png) | Best to show distribution of raw data, with number of values in each bucket.<br>Easy tools: [Histogram Chart in Google Sheets tutorial](histogram-google.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
-| Pie chart<br> ![](images/07-chart/chart-pie.png) | Best to show parts of a whole, but hard to estimate size of slices.<br>Easy tools: [Pie Chart in Google Sheets tutorial](pie-line-area-google.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
-| Line chart<br> ![](images/07-chart/chart-line.png) | Best to show continuous data, such as change over time.<br>Easy tools: [Line Chart in Google Sheets tutorial](pie-line-area-google.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
-| Annotated line chart<br> ![](images/07-chart/chart-annotated.png) | Best to add notes or highlight data inside a chart, such as historical context in a line chart.<br>Easy tools: [Annotated Chart in Datawrapper tutorial](annotated-datawrapper.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
-| Filtered line chart <br> ![](images/07-chart/chart-filtered-line.png) | Best to show multiple lines of continuous data, which users can toggle on and off. <br>Easy tool: [Filtered Line Chart in Tableau Public tutorial](filtered-line-tableau.html) |
-| Stacked area chart<br> ![](images/07-chart/chart-stacked-area.png) | Best to show parts of a whole, with continuous data such as change over time. <br>Easy tools: [Stacked Area Chart in Google Sheets tutorial](pie-line-area-google.html)<br>Power tool: TODO DECIDE |
-| Range chart<br> ![](images/07-chart/chart-range.png) | Best to show gaps between data points, such as inequalities.<br>Easy tools: [Range Chart in Datawrapper tutorial](annotated-datawrapper.html)<br>Power tool: TODO DECIDE |
-| Scatter chart <br> ![](images/07-chart/chart-scatter.png) | Best to show the relationship between two variables, with each dot representing its X and Y coordinates. <br>Easy tool: [Scatter and Bubble Chart in Datawrapper tutorial](scatter-bubble-datawrapper.html) or [Scatter Chart in Tableau Public tutorial](scatter-tableau.html). <br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
-| Bubble chart <br> ![](images/07-chart/chart-bubble.png) | Best to show the relationship between three or four sets of data, with XY coordinates, bubble size, and color.<br>Easy tool: [Scatter and Bubble Chart in Datawrapper tutorial](scatter-bubble-datawrapper.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
-| Sparklines<br> ![](images/07-chart/chart-sparklines.png) | Best to compare data trends with tiny line or bar charts, aligned in a table column.<br>Easy tool: [Ch 9: Interactive Table with Sparklines in Datawrapper tutorial](table-datawrapper.html) |
+| Grouped bar or column chart<br> ![](images/07-chart/tablechart-grouped-column.png) | Best to compare categories side-by-side. If labels are long, use horizontal bars instead of vertical columns. <br>Easy tool: [Bar and Column Charts in Google Sheets tutorial](bar-column-google.html) or [Datawrapper Charts](chart-datawrapper.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
+| Split bar or column chart<br> ![](images/07-chart/tablechart-split-column.png) | Best to compare categories in separate clusters.  If labels are long, use horizontal bars instead of vertical columns.<br>Easy tool: [Bar and Column Charts in Google Sheets tutorial](bar-column-google.html) or [Datawrapper Charts](chart-datawrapper.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
+| Stacked bar or column chart<br> ![](images/07-chart/tablechart-stacked-column.png) | Best to compare sub-categories, or parts of a whole.  If labels are long, use horizontal bars instead of vertical columns.<br>Easy tool: [Bar and Column Charts in Google Sheets tutorial](bar-column-google.html) or [Datawrapper Charts](chart-datawrapper.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
+| Error bars in bar or column chart<br> ![](images/07-chart/tablechart-error-column.png) | Best to show margin of error bars when comparing categories side-by-side. If labels are long, use horizontal bars instead of vertical columns.<br>Easy tool: Google Sheets Charts has [limited support for error bars](bar-column-google.html) <br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html)  |
+| Histogram<br> ![](images/07-chart/tablechart-histogram.png) | Best to show distribution of raw data, with number of values in each bucket.<br>Easy tool: [Histogram Chart in Google Sheets tutorial](histogram-google.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
+| Pie chart<br> ![](images/07-chart/tablechart-pie.png) | Best to show parts of a whole, but hard to estimate size of slices.<br>Easy tools: [Pie Chart in Google Sheets tutorial](pie-line-area-google.html) or [Datawrapper Charts](chart-datawrapper.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
+| Line chart<br> ![](images/07-chart/tablechart-line.png) | Best to show continuous data, such as change over time.<br>Easy tools: [Line Chart in Google Sheets tutorial](pie-line-area-google.html) or [Datawrapper Charts](chart-datawrapper.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
+| Annotated line chart<br> ![](images/07-chart/tablechart-annotated.png) | Best to add notes or highlight data inside a chart, such as historical context in a line chart.<br>Easy tools: [Annotated Chart in Datawrapper tutorial](annotated-datawrapper.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
+| Filtered line chart <br> ![](images/07-chart/tablechart-filtered-line.png) | Best to show multiple lines of continuous data, which users can toggle on and off. <br>Easy tool: [Filtered Line Chart in Tableau Public tutorial](filtered-line-tableau.html) |
+| Stacked area chart<br> ![](images/07-chart/tablechart-stacked-area.png) | Best to show parts of a whole, with continuous data such as change over time. <br>Easy tools: [Stacked Area Chart in Google Sheets tutorial](pie-line-area-google.html) or [Datawrapper Charts](chart-datawrapper.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
+| Range chart<br> ![](images/07-chart/tablechart-range.png) | Best to show gaps between data points, such as inequalities.<br>Easy tool and Power tool: [Range Chart in Datawrapper tutorial](range-datawrapper.html) |
+| Scatter chart <br> ![](images/07-chart/tablechart-scatter.png) | Best to show the relationship between two variables, with each dot representing its X and Y coordinates. <br>Easy tool: [Scatter and Bubble Chart in Datawrapper tutorial](scatter-bubble-datawrapper.html) or [Scatter Chart in Tableau Public tutorial](scatter-tableau.html). <br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
+| Bubble chart <br> ![](images/07-chart/tablechart-bubble.png) | Best to show the relationship between three or four sets of data, with XY coordinates, bubble size, and color.<br>Easy tool: [Scatter and Bubble Chart in Datawrapper tutorial](scatter-bubble-datawrapper.html)<br>Power tool: [Ch 12: Chart.js and Highcharts templates](chartcode.html) |
+| Sparklines<br> ![](images/07-chart/tablechart-sparklines.png) | Best to compare data trends with tiny line or bar charts, aligned in a table column.<br>Easy tool: [Ch 9: Interactive Table with Sparklines in Datawrapper tutorial](table-datawrapper.html) |
 
 Note: For a more extensive collection of chart types and use cases, see the [Financial Times Visual Vocabulary](https://ft.com/vocabulary).
-
-TODO above: ILYA improve and standardize chart images, improve colors, aspect ratio;  redo range chart
 
 ## Chart Design Principles {- #chart-design}
 
 There are *so* many different types of charts. However, just because data *can* be made into a chart does not necessarily mean that it *should* be turned into one. Before creating a chart, stop and ask: *Does a visualized data pattern really matter to your story?* Sometimes a simple table, or even text alone, can communicate the idea more effectively to your audience. Since creating a well-designed chart requires time and effort, make sure it enhances your data story.
 
-Although not a science, data visualization comes with a set of principles and best practices that serve as a foundation for creating truthful and eloquent charts. In this section, we'll identify some important rules about chart design. But you may be surprised to learn that some rules are less rigid than others, and can be "broken" when necessary to emphasize a point, as long as you are honestly interpreting the data. To begin to understand the difference, let's start by establishing a common vocabulary about charts.
+Although not a science, data visualization comes with a set of principles and best practices that serve as a foundation for creating truthful and eloquent charts. In this section, we'll identify some important rules about chart design. But you may be surprised to learn that some rules are less rigid than others, and can be "broken" when necessary to emphasize a point, as long as you honestly interpret the data.
+
+To better understand this tension between following and breaking rules in data visualization, see Lisa Charlotte Rost’s thoughtful reflection on "[What To Consider When Considering Data Vis Rules](https://lisacharlotterost.de/datavisrules)." By articulating the unspoken rules behind good chart design, Rost argues that we all benefit by moving them into the public realm, where we can openly discuss and improve on them, as she had done in many [Datawrapper Academy](https://academy.datawrapper.de), which also beautifully visualize each rule. But Rost reminds us that rules also have a downside. First, following rules too closely can block creativity and innovation, especially when we look for ways to overcome challenges in design work. Second, since rules have emerged from different "theories of data visualization," they sometimes contradict one another. One example of colliding rules is the tension between creating easy-to-grasp data stories versus those that reveal the complexity of the data, as it often feels impossible to do both. Rost concludes that the rules we follow reflect our values, and each of us needs to ask, "What do you want your data visualizations to be judged for?"^[@rostWhatConsiderWhen2020]
+
+To delve further into chart design, let's start by establishing a common vocabulary about charts.
 
 ### Deconstruct a Chart {-}
 
@@ -114,7 +116,6 @@ Furthermore, while forcing a line chart to begin at the zero baseline is accepta
 ```{r design-principles-baseline-modified, fig.cap="(ref:design-principles-baseline-modified)"}
 knitr::include_graphics("images/07-chart/design-principles-baseline-modified.png")
 ```
-
 
 #### Pie Charts Represent 100% {-}
 Pie charts is one of the most contentious issues in data visualization.
@@ -208,14 +209,16 @@ Consider using commas as thousands separators for readability (`1,000,000` is mu
 #### Be careful with colors {-}
 In this section, we would like to briefly introduce three important rules about colors. First, remember that in most cases monochromatic (single-hue) charts suffice, and there may be no need to introduce the extra dimension of color at all.
 
-Second, refer to the color wheel and standard [harmony rules](https://en.wikipedia.org/wiki/Harmony_color) when choosing your palette. Consider the rule of complementary colors—--opposites in the color wheel—--to find color pairs, such as blue and orange or yellow and purple. Analogous colors, or neighbors in the color wheel, make good palettes, such as orange, red, and pink.
+Second, refer to the color wheel and standard [harmony rules](https://en.wikipedia.org/wiki/Harmony_color) when choosing your palette. Consider the rule of complementary colors---opposites in the color wheel---to find color pairs, such as blue and orange or yellow and purple. Analogous colors, or neighbors in the color wheel, make good palettes, such as orange, red, and pink.
 
 Third, stay away from pure saturated colors and instead choose their "earthier" versions, such as olive green instead of bright green, or navy instead of neon blue.
 
 Once you have chosen the color palette for your visualization, ask yourself:
 
 1. Is there a conflict of meaning between colors and the phenomenon they represent? Am I using red to represent profit or green to represent death rate? This question is complex as colors carry different associations for different social groups and cultures, but try to exercise your best sensitivity.
+
 2. Can people with color blindness interpret your chart? Palettes that contain reds and greens, or yellows and blues can be challenging. Consider using [Color Oracle](http://www.colororacle.org/) or another simulator to make sure your visualization is accessible.
+
 3. Will the colors be distinguishable in black-and-white? Even if you don't expect viewers printing your chart, they may. You can use Color Oracle or another simulator to check that your colors have different brightness levels and look distinguishable in grayscale. Figure \@ref(fig:design-principles-color) shows some good and bad examples of color use.
 
 (ref:design-principles-color) Don't use colors just for the sake of it.
@@ -235,10 +238,12 @@ Figure \@ref(fig:design-principles-decluttered). Notice how your eyes are drawn 
 knitr::include_graphics("images/07-chart/design-principles-decluttered.png")
 ```
 
+In summary, good chart design requires training your eyes and your brain to understand what works and what fails when telling data stories. Build up your data visualization muscles by looking at lots of different charts, both bad and good ones. For example, browse through both the [Data Is Beautiful](https://www.reddit.com/r/dataisbeautiful/) and [Data is Ugly](https://www.reddit.com/r/dataisugly/) pages on Reddit. Read comments by other readers, but develop your own opinions, which may not necessarily match those expressed by others. Also, it's a fun way to learn! 
+
 ## Google Sheets Charts {- #chart-google}
 In this section, you'll learn about the pros and cons of creating interactive charts in [Google Sheets](https://sheets.google.com), the powerful [spreadsheet tool we introduced in Chapter 3](spreadsheet.html). Google Sheets has many advantages for newcomers to data visualization. First, Google Sheets allows you to clean, analyze, share, and publish charts, all in the same platform. One tool does it all, which makes it easier to organize your work by keeping it all together in one place. Second, Google Sheets is familiar and easy to learn to many users, so it will help you to *quickly* create good-looking interactive charts. See all of the [types of charts you can create with Google Sheets](https://support.google.com/docs/answer/190718). Although some people export charts as static images in *JPG* or *PNG* format, this chapter focuses on creating interactive charts that display more info about your data when you hover over them in your browser. Later, you'll learn [how to embed an interactive chart on your website in Chapter 10](embed.html).
 
-But Google Sheets also has limitations. First, there is no easy way to cite or link to your source data inside a Google Sheets chart, so you will need to add this key information to the text of a web page that contains your embedded interactive chart. Second, you cannot add text annotations or highlight specific items inside your charts. Finally, you are limited in customizing your chart design, especially tooltips when hovering over data visualizations. If Google Sheets does not meet your needs, refer back to Table \@ref(tab:chart-types) for other tools and tutorials, such as [Datawrapper](chart-datawrapper.html), [Tableau Public](chart-tableau.html), and [Chart.js and Highcharts code templates](chartcode.html).
+But Google Sheets also has limitations. First, while you can enter textual source notes in a chart subtitle, there is no easy way to place a clickable link to your source data inside a Google Sheets chart, so you will need to add source details or links in a web page that contains your embedded interactive chart. Second, you cannot add text annotations or highlight specific items inside your charts. Finally, you are limited in customizing your chart design, especially tooltips when hovering over data visualizations. If Google Sheets does not meet your needs, refer back to Table \@ref(tab:chart-types) for other tools and tutorials, such as [Datawrapper](chart-datawrapper.html), [Tableau Public](chart-tableau.html), and [Chart.js and Highcharts code templates](chartcode.html).
 
 In the next two sections, we'll review the most appropriate cases to use [bar and column charts](bar-column-google.html), followed by [pie, line, and area charts](pie-line-area-google.html). Each section features hands-on examples and step-by-step instructions with sample datasets to help you learn.
 
@@ -254,7 +259,7 @@ A grouped bar or column chart is best to compare categories side-by-side. For ex
  knitr::include_graphics("images/07-chart/column-grouped-data.png")
 ```
 
-(ref:column-grouped) Grouped Column chart: Explore the [interactive version](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkvNNrgYCpNtsaCRxn7g5o4UR8OJXSxBWvUK531t5vYubt39gecV9yLIfic89DCeJnGNvpRttFfKzn/pubchart?oid=787918829&format=interactive). Data from [StateOfObesity.org](http://stateofobesity.org/files/stateofobesity2016.pdf).
+(ref:column-grouped) Grouped Column chart: Explore the [interactive version](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkvNNrgYCpNtsaCRxn7g5o4UR8OJXSxBWvUK531t5vYubt39gecV9yLIfic89DCeJnGNvpRttFfKzn/pubchart?oid=787918829&format=interactive). Data from [NHANES / State of Childhood Obesity, 2017-18](https://stateofchildhoodobesity.org/monitor/).
 
 ```{r column-grouped, fig.cap="(ref:column-grouped)"}
 if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://docs.google.com/spreadsheets/d/e/2PACX-1vSkvNNrgYCpNtsaCRxn7g5o4UR8OJXSxBWvUK531t5vYubt39gecV9yLIfic89DCeJnGNvpRttFfKzn/pubchart?oid=787918829&amp;format=interactive") else knitr::include_graphics("images/07-chart/column-grouped.png")
@@ -282,7 +287,7 @@ Note: Another name for the 3-dot menu symbol is the "kebab menu" because it rese
 food cooked on a skewer, in contrast to the three-line "hamburger menu" on many mobile devices,
 as shown in Figure \@ref(fig:menu-hamburger-kebab). Software developers must be hungry.
 
-(ref:menu-hamburger-kebab) Distinguish between the hamburger verus kebab menu icons.
+(ref:menu-hamburger-kebab) Distinguish between the hamburger versus kebab menu icons.
 
 ```{r menu-hamburger-kebab, fig.cap="(ref:menu-hamburger-kebab)"}
 knitr::include_graphics("images/07-chart/menu-hamburger-kebab.png")
@@ -330,19 +335,16 @@ knitr::include_graphics("images/07-chart/menu-hamburger-kebab.png")
  knitr::include_graphics("images/07-chart/chart-publish.png")
 ```
 
-Unfortunately Google Sheets functionality is very limited when it comes to displaying error bars, or uncertainty.
-You can only assign either constant numbers or percent values as error bar values to individual series (not data points).
-To do so, in *Chart editor*, select *Customize* tab, scroll down to *Series* and select a series from the dropdown.
-Check *Error bars*, and customize its value as either percent or a constant value, as shown in Figure \@ref(fig:images/07-chart/chart-error-bar.png).
-This setting will then be applied to all data points from that series.
+Unfortunately Google Sheets functionality is very limited when it comes to displaying error bars or uncertainty.
+You can only assign either constant numbers or percent values as error bar values to an individual series, not to specific data points. If you wish to display error bars in Google Sheets, in *Chart editor*, select *Customize* tab, scroll down to *Series*, and select a series from the dropdown menu. Check *Error bars*, and customize its value as either percent or a constant value, as shown in Figure \@ref(fig:chart-error-bar). This setting will be applied to all data points in that series.
 
-(ref:chart-error-bar) Google Sheets is very limited when it comes to setting error bars.
+(ref:chart-error-bar) Google Sheets has limited settings to create error bars.
 
-```{r chart-error-bar, out.width=150, fig.cap="(ref:chart-error-bar)"}
+```{r chart-error-bar, out.width=300, fig.cap="(ref:chart-error-bar)"}
  knitr::include_graphics("images/07-chart/chart-error-bar.png")
 ```
 
-Since there is no easy way to cite or link to your source data inside a Google Sheets chart, you will need to add this information to the text of the web page that contains your interactive chart. Remember that citing your data sources adds credibility to your work.
+Finally, remember that providing your data source adds credibility to your work. You can briefly describe the source in a chart subtitle in Google Sheets. But there is no easy way to insert a clickable link in your chart, so you would need to add more details or links in the separate web page that contains your embedded interactive chart.  
 
 ### Split Bar and Column Charts {-}
 A split column (or bar) chart is best to compare categories in separate clusters. For example, imagine you wish to emphasize calorie counts for selected foods offered at two different restaurants, Starbucks and McDonalds. Format the restaurant data in vertical columns in your Google Sheet, as shown in Figure \@ref(fig:bar-split-data). Since food items are unique to each restaurant, only enter calorie data in the appropriate column, and leave other cells blank. Now you can easily create a split bar (or column) chart that displays the restaurant data in different clusters, as shown in Figure \@ref(fig:bar-split). Unlike the grouped column chart previously shown in Figure \@ref(fig:column-grouped), here the bars are separated from each other, because we do not wish to draw comparisons between food items that are unique to each restaurant. Also, our chart displays horizontal bars (not columns) because our some data labels are long.
@@ -382,19 +384,21 @@ To change the color of a data series (for example, to show Overweight category i
 
 (ref:column-stacked-edit-series) To edit a column color, select *Edit Chart - Customize - Series*.
 
-```{r column-stacked-edit-series, out.width=500, fig.cap="(ref:column-stacked-edit-series)"}
+```{r column-stacked-edit-series, out.width=450, fig.cap="(ref:column-stacked-edit-series)"}
  knitr::include_graphics("images/07-chart/column-stacked-edit-series.png")
 ```
 
 ## - Histograms {- #histogram-google}
 
-Histograms are best to show the distribution of raw data, by displaying the number of values that fall within defined ranges, often called *buckets* or *bins*. Creating a histogram can be a great way to better understand what your data looks like to inform your decision-making when designing more advanced visualizations, such as [choropleth maps, as you'll learn in Chapter 8](design-choropleth.html). Although histograms may look similar to column charts, the two are different. First, histograms show *continuous* data, and usually you can adjust the bucket ranges to explore frequency patterns. For example, you can shift histogram buckets from 0-1, 1-2, 2-3, etc. to 0-2, 2-4, etc. By contrast, column charts show *categorical* data (such as the number of apples, bananas, carrots, etc.), so their ranges cannot be adjusted. Second, histograms do not usually show spaces between buckets because these are continuous values, while column charts show spaces to separate each category.
+Histograms are best to show the distribution of raw data, by displaying the number of values that fall within defined ranges, often called *buckets* or *bins*. Creating a histogram can be a great way to better understand what your data looks like to inform your decision-making when designing more advanced visualizations, such as [choropleth maps, as you'll learn in Chapter 8](design-choropleth.html). Although histograms may look similar to column charts, the two are different. First, histograms show *continuous* data, and usually you can adjust the bucket ranges to explore frequency patterns. For example, you can shift histogram buckets from 0-1, 1-2, 2-3, etc. to 0-2, 2-4, etc. By contrast, column charts show *categorical* data, such as the number of apples, bananas, carrots, etc. Second, histograms do not usually show spaces between buckets because these are continuous values, while column charts show spaces to separate each category.
 
-In this section, you'll create two types of histograms in Google Sheets: quick histograms using the *Column stats* menu versus regular histograms using the *Chart* menu, and the advantages of each method. For both tutorials we'll use the same data on TODO DESCRIBE...JACK TO UPDATE after Ilya prepares data....for 174 countries in TODO: YEAR from the [United Nations Food and Agriculture Organization](http://www.fao.org/). Before you begin, open the TODO: CHECK NAME [Average Calorie Consumption by nation data in Google Sheets](https://docs.google.com/spreadsheets/d/1V-r1bOWpvyCRhmJa0gRZ1TEchXvrr7UTZ97rKOU1WRo/edit#gid=1132930452), log in with your account, and go to *File > Make a Copy* to create a version you can edit in your Google Drive.
+In this section, you'll create two types of histograms in Google Sheets: quick histograms using the *Column stats* menu versus regular histograms using the *Chart* menu, and the advantages of each method. For both tutorials we'll use the same data: the average calorie supply per capita for 174 countries in 2017, compiled by the [United Nations Food and Agriculture Organization](http://www.fao.org/faostat/en/#data/FBS), accessed through [Our World In Data](https://ourworldindata.org/food-supply). Note that methods for measuring food supply vary across nations and over time, and estimate the amount of food availability, rather than actual consumption.
 
 ### Quick Histograms with Google Sheets Column Stats {-}
 
-To create a quick histogram in Google Sheets, select any column, then go to *Data > Column stats*, and click the green *Distribution* button in the sidebar to view a histogram for that column, as shown in Figure \@ref(fig:histogram-quick). The advantage is that this method is very fast, and you can quickly create histograms for other columns in the same sheet using the arrows near the top of the sidebar (`< >`). However, you cannot manually adjust the bucket ranges or make other edits to these quick histograms, and you cannot embed them on the web as you can with regular charts in Google Sheets.
+1. Open the sample data on [Average Daily Calorie Supply per capita by country 2017 in Google Sheets](https://docs.google.com/spreadsheets/d/1V-r1bOWpvyCRhmJa0gRZ1TEchXvrr7UTZ97rKOU1WRo/edit#gid=1132930452), log in with your account, and go to *File > Make a Copy* to create a version you can edit in your Google Drive.
+
+2. To create a quick histogram in Google Sheets, select any column, then go to *Data > Column stats*, and click the *Distribution* button in the sidebar to view a histogram for that column, as shown in Figure \@ref(fig:histogram-quick). The advantage is that this method is very fast, and you can quickly create histograms for other columns in the same sheet using the arrows near the top of the sidebar (`< >`). However, you cannot manually adjust the bucket ranges or make other edits to these quick histograms, and you cannot embed them on the web as you can with regular charts in Google Sheets.
 
 (ref:histogram-quick) To create a quick histogram in a Google Sheet, select a column, then go to *Data - Column stats - Distribution*.
 
@@ -402,20 +406,16 @@ To create a quick histogram in Google Sheets, select any column, then go to *Dat
  knitr::include_graphics("images/07-chart/histogram-quick.png")
 ```
 
-TODO: JACK to update interpretation.... Histograms are designed to represent distributions, not individual values. Figure \@ref(fig:histogram-quick) shows two peaks, one of 2,100–2,300 calories and the second one at 2,700-3,100 calories (two consecutive buckets). We can also see that daily calorie consumption in five countries does not exceed 1,900, and exceeds 3,700 calories in three countries. Histograms by themselves, without annotations, don't tell us what those countries are.
-
-TODO above: JACK to redo image using new data; create PDF version
+Histograms are designed to show broad patterns of data distribution, not individual values. The histogram in Figure \@ref(fig:histogram-quick) shows that while most nations have an average daily supply around 2,800 calories per capita, 8 nations have fewer than 2,000, and 11 nations have more than 3,500. Without annotations, histograms don't tell us the names of those outlier countries. But they do offer a better sense of the shape of the data distribution.
 
 ### Regular Histograms with Google Sheets Charts {-}
 
-TODO below: ILYA to prepare replacement histogram data and demo, and JACK to redo screenshots and text as needed
+Compare the quick histogram created with *Column stats* in Figure \@ref(fig:histogram-quick) with the regular histogram created with *Charts* in Figure \@ref(fig:histogram). You'll notice that in the regular histogram, you can define the bucket ranges, display dividers, and add titles and labels to provide more context to readers. Also, the interactive version of the regular histogram allows users to float their cursor to see underlying data on the count for each column.
 
-Compare the quick histogram in Figure \@ref(fig:histogram-quick) with the regular histogram created with the Charts menu in Figure \@ref(fig:histogram). You'll notice that....TODO....DESCRIBE differences....
-
-(ref:histogram) Histogram: Explore the full-screen [interactive version](https://docs.google.com/spreadsheets/d/e/2PACX-1vRyg09UZgGWVHPk3oOKAZ-zlqtDF_RpvOLdAsM-k-ZW5NavcxAyHbErgr-7dt7U_AFSVZONSTZ9sVII/pubchart?oid=480820223&format=interactive).
+(ref:histogram) Regular histogram chart: Explore the full-screen [interactive version](https://docs.google.com/spreadsheets/d/e/2PACX-1vRyg09UZgGWVHPk3oOKAZ-zlqtDF_RpvOLdAsM-k-ZW5NavcxAyHbErgr-7dt7U_AFSVZONSTZ9sVII/pubchart?oid=480820223&amp;format=interactive).
 
 ```{r histogram, fig.cap="(ref:histogram)"}
-if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://docs.google.com/spreadsheets/d/e/2PACX-1vRyg09UZgGWVHPk3oOKAZ-zlqtDF_RpvOLdAsM-k-ZW5NavcxAyHbErgr-7dt7U_AFSVZONSTZ9sVII/pubchart?oid=480820223&format=interactive") else knitr::include_graphics("images/07-chart/histogram.png")
+if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://docs.google.com/spreadsheets/d/e/2PACX-1vRyg09UZgGWVHPk3oOKAZ-zlqtDF_RpvOLdAsM-k-ZW5NavcxAyHbErgr-7dt7U_AFSVZONSTZ9sVII/pubchart?oid=480820223&amp;format=interactive") else knitr::include_graphics("images/07-chart/histogram.png")
 ```
 
 1. To create a regular histogram in Google Sheets, select a column with values and go to *Insert > Chart*. If Google Sheets does not automatically select *Histogram chart* as the *Chart type* in Chart editor, use the dropdown and select it manually, near the bottom of the list in the *Other* category, as shown in Figure \@ref(fig:histogram-chart-type)
@@ -432,9 +432,9 @@ Note: Currently, Google Sheets does not allow users to remove decimal points in 
 
 3. Optionally, you can break down the column into individual items (in our case, countries), which will appear as blocks with white boundaries. To do this, go to *Customize > Histogram > Show item dividers*.
 
-4. To further assist the reader in interpreting the histogram, add a vertical y-axis label (such as *Number of countries*) and a subtitle (such as *Each bar represents number of countries per calorie range*). You can add both from the *Customize* tab in the Chart editor.
+4. In the Chart Editor, customize further to add a *Chart title*, a *subtitle* to describe the source, and also vertical and horizontal axis titles to help readers interpret the chart.
 
-Since this histogram is created using the regular Charts feature, you can choose to *Publish* it and copy the embed code for the interactive version, as you'll learn in [Chapter 10: Embed on the Web](embed.html).
+Since the regular histogram is created using the Charts feature, you can choose to *Publish* it and copy the embed code for the interactive version, as you'll learn in [Chapter 10: Embed on the Web](embed.html).
 
 Now that you've learned how to create histograms to show the distribution of raw data, in the next section we'll move on to other types of Google Sheets chart types, such as pie, line, and area charts.
 
@@ -513,9 +513,11 @@ Now that you've built several basic charts in Google Sheets, in the next section
 
 ## Datawrapper Charts {- #chart-datawrapper}
 
-Another free and collaborative tool for creating interactive charts is [Datawrapper](https://www.datawrapper.de/), which has several advantages over Google Sheets. First, you can start creating in Datawrapper right away in your browser, even without creating an account, and its four-step process is intuitive for many new users. Second, you can add credit bylines, data sources, and even allow visitors to download your data from links inside your Datawrapper visualizations that you publish online, which makes your work more credible and accessible. Third, Datawrapper supports a wider array of interactive chart types than Google Sheets, as well as other visualizations we'll discuss later, such as [maps in chapter 8](map.html) and [tables in chapter 9](table.html). You can build all of the basic charts we've constructed so far in this chapter, as well as three new types where Datawrapper stands out: [annotated charts](annotated-datawrapper.html), [range charts](range-datawrapper.html), and [scatter and bubble charts](scatter-bubble-datawrapper.html). Later, you'll learn [how to embed interactive Datawrapper charts on your website in Chapter 10](embed.html). Finally, we highly recommend the [Datawrapper Academy support pages](https://academy.datawrapper.de/), the extensive [gallery of examples](https://www.datawrapper.de/tables/), and well-designed [training materials](https://www.datawrapper.de/training-materials/) to help you and others learn beyond the basics covered here.
+Another free and collaborative tool for creating interactive charts is [Datawrapper](https://www.datawrapper.de/), which has several advantages over Google Sheets. First, you can start creating in Datawrapper right away in your browser, even without creating an account, and its four-step process is intuitive for many new users. Second, you can add credit bylines, links to data sources, and even allow visitors to download the data from a button inside your Datawrapper visualizations that you publish online, which makes your work more credible and accessible. Third, Datawrapper supports a wider array of interactive chart types than Google Sheets, as well as [maps, which we'll discuss in chapter 8](map.html) and [tables, in chapter 9](table.html). With Datawrapper, you  can build all of the basic charts we've constructed so far in this chapter, as well as three new types we'll cover below: [annotated charts](annotated-datawrapper.html), [range charts](range-datawrapper.html), and [scatter and bubble charts](scatter-bubble-datawrapper.html). Later, you'll learn [how to embed interactive Datawrapper charts on your website in Chapter 10](embed.html).
 
-While Datawrapper is fabulous, it cannot fulfill all of your data visualization needs. You'll still need a spreadsheet tool, such as Google Sheets, to [organize and analyze your data as described in Chapter 3](spreadsheet.html), [record your detailed source notes and save raw data files as described in Chapter 4](find.html), and [clean up your data as described in Chapter 5](clean.html). While Datawrapper can transpose data (swap the rows and columns), it cannot create pivot tables or lookup and merge data from different columns, which Google Sheets and other spreadsheet tools can do. The main reason we start this chapter with Google Sheets is because it's simpler for newcomers to use one tool for both spreadsheets and basic charts.
+While no single tool does everything, we recommend that you consider using both Google Sheets and Datawrapper, which turns this pair of easy-to-use tools into a visualization powerhouse. First, use Google Sheets as your spreadsheet to [organize and analyze your data as described in Chapter 3](spreadsheet.html), [record your detailed source notes and save raw data files as described in Chapter 4](find.html), and [clean up your data as described in Chapter 5](clean.html). Although Datawrapper can transpose data (swap the rows and columns), it cannot create pivot tables or lookup and merge data as spreadsheets can do. Second, import your data from Google Sheets to Datawrapper to create visualizations, because the latter tool offers you more control over their appearance, annotations, and additional features described below. You'll discover that Datawrapper plays nicely with Google Sheets by accepting a direct link to data stored there. Together, Google Sheets and Datawrapper are a powerful combination.
+
+In addition, we strongly recommend the high-quality [Datawrapper Academy support pages](https://academy.datawrapper.de/), the extensive [gallery of examples](https://www.datawrapper.de/tables/), and well-designed [training materials](https://www.datawrapper.de/training-materials/). Reading these will not only teach you which buttons to press, but more importantly, how to design better visualizations that tell true and meaningful stories about your data. While writing this book, we learned a great deal from Datawrapper Academy, and we give credit and specific links in sections below. Finally, one more plus is that [Datawrapper Core is open-source code](https://github.com/datawrapper/datawrapper), though that does not apply to most of the platform's plugins to create charts and maps.
 
 Now you're ready to use Datawrapper to create new types of charts that step beyond the basics. But if Datawrapper or the chart types in this section do not meet your needs, refer back to Table \@ref(tab:chart-types) for other tools and tutorials, or prior chapters on spreadsheets, sourcing, and cleaning up data.
 
@@ -570,29 +572,31 @@ knitr::include_graphics("images/07-chart/datawrapper-annotated-range.png")
 
 9. Click *Proceed* or advance to the *Publish & Embed* screen to share your work with others. If you logged into your free Datawrapper account, your work is automatically saved online in the *My Charts* menu in the top-right corner of the screen. Also, you can click the blue *Publish* button to generate the code to embed your interactive chart on your website, as you'll learn about in [Chapter 10: Embed on the Web](embed.html). In addition, you can *add your chart to River* if you wish to share your work more widely by allowing other Datawrapper users to adapt and reuse your chart. Furthermore, scroll all the way down and click the *Download PNG* button to export a static image of your chart. Additional exporting and publishing options require a paid Datawrapper account. Or, if you prefer not to create an account, you can enter your email to receive the embed code.
 
+Hint: See this [Datawrapper Academy article to create a line chart with confidence intervals](https://academy.datawrapper.de/article/205-how-to-show-confidence-intervals-in-datawrapper-line-charts), which are similar to error bars.
+
 Congratulations on creating your first interactive Datawrapper chart. Now let's use Datawrapper to create a new type of chart, called a range chart.
 
 ## - Range Charts {- #range-datawrapper}
 
-TODO below: ILYA to create new data and sample chart on gender pay gap with updated data, and JACK to update text and screenshots as needed
+A range chart, which can be classed as a specific type of a dot chart, emphasizes gaps between data points, and is often used to highlight inequalities. In this tutorial, we will use Datawrapper to build a range chart about the US gender pay gap. The chart compares the median earnings of American men and women by education level, according to the 2019 American Community Survey, as shown in Figure \@ref(fig:datawrapper-range). We were inspired by the [Datawrapper Academy range plot tutorial](https://academy.datawrapper.de/article/111-how-to-create-a-range-plot) and created our version using more recent data. Overall, the range chart shows how men, on average, earn more than women at all education levels. In fact, an average US man with a bachelor's degree earns more than an average US woman with a graduate degree.
 
-A range chart (also known as a specific type of dot chart) is best to show gaps between data points, such as inequalities. The line chart above illustrated how the overall US unemployment rate changed over time. But if we wish to look at differences in gender and race/ethnicity for a specific point in time, a range chart will highlight any gaps. Organize the data for a range chart into rows and columns, as shown in Figure \@ref(fig:datawrapper-range-data). The column headers contain data labels you wish to highlight, such *Men* and *Women*. The first column contains your categories, such as racial/ethnic groups, followed by the numerical values under each header. Now you can easily create an interactive range chart as shown in Figure \@ref(fig:datawrapper-range). The employment gender gap is visible in all three racial/ethnic groups, but the gap was widest between Hispanic men and women in May 2020.
+(ref:datawrapper-range) Range chart: Explore the [interactive version](https://datawrapper.dwcdn.net/lVGnz/). Data from [US Census 2019 American Community Survey](https://docs.google.com/spreadsheets/d/1qAfMHBegOz1-ZlN9UurZ_wsesmLGYlu_ch7M3Anwdsg/edit#gid=0).
 
-(ref:datawrapper-range-data) Organize your range chart data labels into column headers, with categories and values in each row.
+```{r datawrapper-range, fig.cap="(ref:datawrapper-range)"}
+if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://datawrapper.dwcdn.net/lVGnz/", height="260px") else knitr::include_graphics("images/07-chart/datawrapper-range.png")
+```
 
-```{r datawrapper-range-data, out.width=300, fig.cap="(ref:datawrapper-range-data)"}
+To build this range chart, we organized the data as shown in Figure \@ref(fig:datawrapper-range-data). The first column contains five educational attainment levels, from lowest (*less than high school*) to highest (*graduate or professional degree*). The second and third columns contain numeric values of median earnings for *Men* and *Women* respectively.
+
+(ref:datawrapper-range-data) Organize your range chart data into three columns: labels, and values for both subgroups.
+
+```{r datawrapper-range-data, out.width=500, fig.cap="(ref:datawrapper-range-data)"}
 knitr::include_graphics("images/07-chart/datawrapper-range-data.png")
 ```
 
-(ref:datawrapper-range) Range chart: Explore the [interactive version](https://datawrapper.dwcdn.net/v8D2z/). Data from [US Federal Reserve Open Data](https://docs.google.com/spreadsheets/d/1qAfMHBegOz1-ZlN9UurZ_wsesmLGYlu_ch7M3Anwdsg/edit#gid=0).
+Since by now you should be familiar with Datawrapper, the steps to create a range chart are less detailed than in the previous tutorial on annotated line charts. If you get lost, see more detailed steps about Datawrapper charts in the section above.
 
-```{r datawrapper-range, fig.cap="(ref:datawrapper-range)"}
-if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://datawrapper.dwcdn.net/v8D2z/") else knitr::include_graphics("images/07-chart/datawrapper-range.png")
-```
-
-To create your own range chart with our sample data, follow this tutorial. Since we assume that you're already familiar with Datawrapper from the previous tutorial on annotated line charts, these steps are abbreviated. So if you get lost, see more details and images above.
-
-1. Open the [US Unemployment by Gender and Race/Ethnicity May 2020 sample data in Google Sheets](https://docs.google.com/spreadsheets/d/1qAfMHBegOz1-ZlN9UurZ_wsesmLGYlu_ch7M3Anwdsg/edit#gid=0) and go to *File > Make a Copy* to create your own version in your Google Drive. Or download the [sample data in Excel format](data/us-unemployment-gender-race-ethnicity-may2020.xlsx) to your computer.
+1. Open the [US Earnings by Gender by Education Level data in Google Sheets](https://docs.google.com/spreadsheets/d/1qAfMHBegOz1-ZlN9UurZ_wsesmLGYlu_ch7M3Anwdsg/edit#gid=0) and go to *File > Make a Copy* to create your own version in your Google Drive.
 
 2. Open [Datawrapper](https://www.datawrapper.de) in your browser and click *Start Creating*. We recommend that you create a free account to better manage your visualizations, but it's not required.
 
@@ -604,27 +608,28 @@ To create your own range chart with our sample data, follow this tutorial. Since
 
 6. Click the *Annotate* tab near the top-left of the *Visualize* screen to add a meaningful title, data source, and byline credits.
 
-7. Click the *Refine* tab of the *Visualize* screen to modify the range chart appearance. You have several options, but here's the most important ones in this case. First, in the *Labels* section, change the visibility of the values from *start* to *both*, which places numbers at both ends of each range. Second, push the slider to *Label first range*, which places the word *Men* and *Women* above the first range, as shown in Figure \@ref(fig:datawrapper-range-labels).
+7. Click the *Refine* tab of the *Visualize* screen to modify the range chart appearance. You have several options, but here's the most important ones in this case. First, in the *Labels* section, change the visibility of the values from *start* to *both*, which places numbers at both ends of each range. Second, push the slider to *Label first range*, which places the word *Men* and *Women* above the first range. Third, change *Number format* to *123k*, which will round dollar amounts to the nearest thousand, and replace thousands with a *k* as shown in Figure \@ref(fig:datawrapper-range-labels).
 
 (ref:datawrapper-range-labels) Modify the labels settings to show values at both ends of each range, and to place your data labels on your first range.
 
-```{r datawrapper-range-labels, fig.cap="(ref:datawrapper-range-labels)"}
+```{r datawrapper-range-labels, out.width=600, fig.cap="(ref:datawrapper-range-labels)"}
 knitr::include_graphics("images/07-chart/datawrapper-range-labels.png")
 ```
 
-8. Still in the *Refine* tab, scroll down to the *Appearance* section to improve the colors. Select the *Range end* drop-down menu to select a better color, such as red. Also, change the *Range color* setting to *gradient* to emphasize the range, as shown in Figure \@ref(fig:datawrapper-range-appearance).
+8. Still in the *Refine* tab, scroll down to the *Appearance* section to improve the colors. Select the *Range end* drop-down menu to select a better color, such as red. Change the *Range color* setting to *gradient* to emphasize the range, as shown in Figure \@ref(fig:datawrapper-range-appearance).
 
 (ref:datawrapper-range-appearance) Modify the appearance settings to improve the color and add a gradient.
 
-```{r datawrapper-range-appearance, fig.cap="(ref:datawrapper-range-appearance)"}
+```{r datawrapper-range-appearance, out.width=600, fig.cap="(ref:datawrapper-range-appearance)"}
 knitr::include_graphics("images/07-chart/datawrapper-range-appearance.png")
 ```
 
-Tip: The *Refine* tab also includes options to resort or group data rows, change the chart size for different devices, and check visibility for colorblind readers.
+Tip: The *Refine* tab includes options to resort or group data rows, change the chart size for different devices, and check visibility for colorblind readers.
 
-9. After modifying your visualization, proceed to the *Publish and Embed* screen, and follow the prompts to share your work, or refer to the more detailed tutorial above.
+9. After modifying your visualization, proceed to the *Publish and Embed* screen, and follow the prompts to share your work, or refer to the previous detailed Datawrapper tutorial.
 
-Now that you've completed a range chart, let's create another new chart type, scatter and bubble charts, which are relatively easy to design in Datawrapper.
+Now that you've completed a range chart, let's see how we can use Datawrapper to build scatter and bubble charts to show relationships between two or more variables.
+
 
 ## - Scatter and Bubble Charts {- #scatter-bubble-datawrapper}
 Scatter charts (also known as scatter plots) are best to show the relationship between two datasets by displaying their XY coordinates as dots to reveal possible correlations. In the scatter chart example below, each dot represents a nation, with its life expectancy on the horizontal X axis and its fertility rate (births per woman) on the vertical Y axis. The overall dot pattern illustrates a correlation between these two datasets: life expectancy tends to increase as fertility decreases.
@@ -666,7 +671,7 @@ Create your own interactive scatter chart in Datawrapper, and edit the tooltips 
 
 (ref:scatter-tooltip-editor) In the tooltip editor window, type and click column headers to customize the display.
 
-```{r scatter-tooltip-editor, fig.cap="(ref:scatter-tooltip-editor)"}
+```{r scatter-tooltip-editor, out.width=350, fig.cap="(ref:scatter-tooltip-editor)"}
 knitr::include_graphics("images/07-chart/scatter-tooltip-editor.png")
 ```
 
@@ -674,7 +679,7 @@ knitr::include_graphics("images/07-chart/scatter-tooltip-editor.png")
 
 (ref:scatter-tooltip) Hover over a data point to inspect the edited tooltip display.
 
-```{r scatter-tooltip, out.width=400, fig.cap="(ref:scatter-tooltip)"}
+```{r scatter-tooltip, out.width=350, fig.cap="(ref:scatter-tooltip)"}
 knitr::include_graphics("images/07-chart/scatter-tooltip.png")
 ```
 
@@ -752,11 +757,11 @@ To create your own scatter chart using this sample data in Tableau Public, follo
 
 2. Install and start up the free [Tableau Public](https://public.tableau.com) desktop application for Mac or Windows. It may require several minutes to complete this process. Tableau Public's welcome page includes three sections: Connect, Open, and Discover.
 
-3. Under *Connect*, you can choose to upload a Microsoft Excel file, or choose *Text file* to upload a CSV file, or other options. Or to connect to a server, such as Google Sheets, click *More...* to connect to your account. After you successfully connect to your data source, you will see it under *Connections* in the *Data Source* tab. Under *Sheets*, you will see two tables, `data` and `notes`.
+3. Under *Connect*, you can choose to upload a Microsoft Excel file, or choose *Text file* to upload a CSV file, or other options. Or to connect to a server, such as Google Sheets, click *More...* to connect to your account. After you successfully connect to your data source, you will see it under *Connections* in the *Data Source* tab. Under *Sheets*, you will see two tables, *data* and *notes*.
 
-4.  Drag the `data` sheet into *Drag tables here* area, as shown in Figure \@ref(fig:tableau-connect). You will see the preview of the table under the drag-and-drop area. You have successfully connected one data source to Tableau Public, and you are ready to build your first chart.
+4.  Drag the *data* sheet into *Drag tables here* area, as shown in Figure \@ref(fig:tableau-connect). You will see the preview of the table under the drag-and-drop area. You have successfully connected one data source to Tableau Public, and you are ready to build your first chart.
 
-(ref:tableau-connect) Drag `data` sheet into *Drag tables here* area.
+(ref:tableau-connect) Drag *data* sheet into *Drag tables here* area.
 
 ```{r tableau-connect, fig.cap="(ref:tableau-connect)"}
 knitr::include_graphics("images/07-chart/tableau-connect-annotated.png")
@@ -801,7 +806,7 @@ Tip: In the dropdown above the *Columns* shelf, change *Standard* to *Fit Width*
 to something meaningful, as this name will appear in the public web address for your published work. Click *Save*.
 
 3. After saving your workbook on the public web, Tableau Public will open up a window in your default browser
-with the visualization. In the green banner above the chart, click *Edit Details* to edit the title or description. Under *Toolbar Settings*, see the checkbox to *Allow others to download or explore and copy this workbook and its data*, and select the setting you wish, as shown in Figure \@ref(fig:tableau-toolbar-settings. If you are publishing your visualization on the web, we also recommend that you keep this box checked so that others can download your data and see how you constructed it, to improve data accessibility for all.
+with the visualization. In the green banner above the chart, click *Edit Details* to edit the title or description. Under *Toolbar Settings*, see the checkbox to *Allow others to download or explore and copy this workbook and its data*, and select the setting you wish, as shown in Figure \@ref(fig:tableau-toolbar-settings). If you are publishing your visualization on the web, we also recommend that you keep this box checked so that others can download your data and see how you constructed it, to improve data accessibility for all.
 
 (ref:tableau-toolbar-settings) This scatter chart is ready to be published.
 
@@ -846,33 +851,42 @@ In your worksheet, your variables will be listed under *Tables* in the left-hand
 #### Build and Publish a Filtered Line Chart {-}
 
 1. Drag the *Year* variable to *Columns* shelf. This will place years along the x-axis.
+
 2. Drag the *Percent Internet Users* variable to *Rows* shelf to place them on the y-axis. The value in the shelf will change to `SUM(Percent Internet Users)`. You should see a single line chart that sums up percentages for each year. That is completely incorrect, so let's fix it.
-3. In order to "break" aggregation, drag-and-drop *Country Name* to the *Color* shelf of the *Marks* card.
-Tableau will warn you that the recommended number of colors should not exceed 20. Since we will be adding checkbox filtering, ignore this warning, and go ahead and press the *Add all members* button.
+
+3. In order to "break" aggregation, drag-and-drop *Country Name* to the *Color* shelf of the *Marks* card, as shown in Figure \@ref(fig:tableau-filtered-filters). Tableau will warn you that the recommended number of colors should not exceed 20. Since we will be adding checkbox filtering, ignore this warning, and go ahead and press the *Add all members* button.
+
+(ref:tableau-filtered-filters) Drag *Country Name* to the *Color* shelf of the *Marks* card to break up the aggregated data.
+
+```{r tableau-filtered-filters, out.width=220, fig.cap="(ref:tableau-filtered-filters)"}
+knitr::include_graphics("images/07-chart/tableau-filtered-filters.png")
+```
+
 4. At first, everything will look like a spaghetti plate of lines and colors! To add filtering,
 drag *Country Name* to the *Filters* card. In the Filter window, make sure all countries
 are checked, and click *OK*.
-5. In the *Filters* card, click the dropdown arrow of the **Country Name** symbol, then scroll down and select Show Filter, as shown in Figure \@ref(fig:tableau-filtered-show-filter).
+
+5. In the *Filters* card, click the dropdown arrow of the *Country Name* symbol, then scroll down and select Show Filter, as shown in Figure \@ref(fig:tableau-filtered-show-filter).
+
 6. You will see a list of options with all checkboxes to appear on the right side of the chart.
 Click *(All)* to add/remove all options, and select a few countries to see
 how the interactive filtering works. The checkboxes you select at this stage will appear "on" in the published map.
 You may notice that some countries from your "on" selection got assigned the same value. The good news is, Tableau lets you change colors of individual datapoints (in our case, countries). From the *Marks* card, click *Color* shelf, and then *Edit Colors...*. Double-click a country from the *Select Data Item:* list to bring up a color picker window, pick your favorite color, and click OK. Although you can ensure that your pre-selected countries are painted in unique colors, there will be repetitions among other countries as your palette is limited to 20 colors. Unfortunately, there is little you can do to go around this.
 
-(ref:tableau-filtered-show-filter) After you drag Country Name to the Filters card, make sure the Filter is displayed.
+(ref:tableau-filtered-show-filter) After you drag *Country Name* to the *Filters* card, make sure the Filter is displayed.
 
 ```{r tableau-filtered-show-filter, out.width=220, fig.cap="(ref:tableau-filtered-show-filter)"}
 knitr::include_graphics("images/07-chart/tableau-filtered-show-filter.png")
 ```
 
-7. Double-click on the *Sheet 1* title (above the chart) and replace it with a more meaningful title, such as "Internet Access by Country, 1995–2018." In the menu, go to *Worksheet > Show Caption* to add a Caption block under the chart.
-Use this space to add source of your data (World Bank), and perhaps credit yourself as
+7. Double-click on the *Sheet 1* title (above the chart) and replace it with a more meaningful title, such as "Internet Access by Country, 1995–2018." In the menu, go to *Worksheet > Show Caption* to add a Caption block under the chart. Use this space to add source of your data (World Bank), and perhaps credit yourself as
 the author of this visualization.
 
 8. Change *Standard* to *Fit Width* in the drop-down menu above the *Columns* shelf.
 
 9. You may notice that the x-axis (Year) starts with 1994 and ends with 2020,
 although our data is for 1995–2018. Double-click on the x-axis, and change
-*Range* from *Automatic* to *Fixed*, with the Fixed start of `1995`, and the Fixed end of `2018`.
+*Range* from *Automatic* to *Fixed*, with the Fixed start of *1995*, and the Fixed end of *2018*.
 Close the window and see that the empty space on the edges has disappeared.
 
 10. Once your filtered line chart looks like the one shown in Figure \@ref(fig:tableau-filtered-ready),
@@ -881,7 +895,7 @@ you are ready to publish. Go to *File > Save to Tableau Public As...*, and log i
 (ref:tableau-filtered-ready) This workbook is ready to be published.
 
 ```{r tableau-filtered-ready, fig.cap="(ref:tableau-filtered-ready)"}
-knitr::include_graphics("images/07-chart/tableau-filtered-ready.png")
+knitr::include_graphics("images/07-chart/tableau-filtered-ready-annotated.png")
 ```
 
 See the [Embed Tableau Public on Your Website](embed-tableau.html) section of this
